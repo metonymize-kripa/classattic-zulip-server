@@ -74,6 +74,7 @@ services:
       - "9080:80"
     extra_hosts:
       - "classattic.exe.xyz:host-gateway"
+      - "chat.classattic.com:host-gateway"
     secrets:
       - zulip__postgres_password
       - zulip__memcached_password
@@ -92,8 +93,8 @@ services:
       SETTING_REDIS_HOST: "redis"
 
       # Core
-      SETTING_EXTERNAL_HOST: "classattic.exe.xyz"
-      SETTING_ZULIP_ADMINISTRATOR: "admin@classattic.exe.xyz"
+      SETTING_EXTERNAL_HOST: "chat.classattic.com"
+      SETTING_ZULIP_ADMINISTRATOR: "admin@chat.classattic.com"
       CERTIFICATES: ""
       TRUST_GATEWAY_IP: "True"
 
