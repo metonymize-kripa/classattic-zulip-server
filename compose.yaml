@@ -95,6 +95,7 @@ services:
       # Core
       SETTING_EXTERNAL_HOST: "chat.classattic.com"
       SETTING_ZULIP_ADMINISTRATOR: "admin@chat.classattic.com"
+      SETTING_ROOT_DOMAIN_LANDING_PAGE: "True"
       CERTIFICATES: ""
       TRUST_GATEWAY_IP: "True"
 
